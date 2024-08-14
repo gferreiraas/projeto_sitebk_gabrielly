@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#topo{
+	height: 100px;
+	background:#F5EBCD;
+}
+#topo ul, li{
+	display: inline-table;
+	padding: 0px 30px;
+	cursor: pointer;
+}
+#topo ul li a{	color:#502314
+.noto-serif-khitan-small-script-regular
+  font-family: "Noto Serif Khitan Small Script", serif;
+  font-weight: 400;
+  font-style: negrit;
+}
+#menu{
+	background-color: #FF4800;
+}
+#menu ul li:hover{
+	background-color: WHITE (0,0,0,0.5);
+}
+#conteudo{
+	background-color: white;
+	min-height: 70px;
+}
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 50;
+	left: 50;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+#menus{
+	background-color: #FF4800;
+}
+#menus ul li:hover{
+	background-color: WHITE (0,0,0,0.5);
+}
+#conteudos{
+	background-color: white;
+	min-height: 70px;
+}
+#sliders {
+	overflow: hidden;
+}
+#sliders figure {
+	position: relative;
+	width: 500%;
+	margin: 50;
+	left: 50;
+	animation: 20s slider infinite;
+}
+#sliders figure img {
+	width: 20%;
+	float: left;
+}
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+img{
+	max-width: 50%;
+	width: 10cm;
+	height: 24cm;
+	object-fit: contain;
+}
+#logo {
+ width: 100px;
+ height: 90px;
+ margin-top: 09px;
+}
